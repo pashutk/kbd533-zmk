@@ -1,0 +1,11 @@
+/*
+ * Copyright (c) 2021 Pavel Glushkov
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "kbd533-lphs.dtsi"
+
+&default_transform {
+	col-offset = <5>;
+};

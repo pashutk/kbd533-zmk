@@ -1,0 +1,10 @@
+# Copyright (c) 2021 Pavel Glushkov
+# SPDX-License-Identifier: MIT
+
+config BOARD_KBD533-LPHS_LEFT
+	bool "kbd533-lphs_left"
+	depends on SOC_NRF52833_QIAA
+
+config BOARD_KBD533-LPHS_RIGHT
+	bool "kbd533-lphs_right"
+	depends on SOC_NRF52833_QIAA
