@@ -5,4 +5,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "kbd533-lphs.dtsi"
+#include "kbd533.dtsi"

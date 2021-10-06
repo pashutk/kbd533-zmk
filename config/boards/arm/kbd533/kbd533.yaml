@@ -1,5 +1,5 @@
-identifier: kbd533-lphs
-name: KBD533-LPHS
+identifier: kbd533
+name: KBD533
 type: keyboard
 arch: arm
 toolchain:

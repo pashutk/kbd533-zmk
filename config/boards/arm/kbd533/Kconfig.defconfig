@@ -1,28 +1,28 @@
 # Copyright (c) 2021 Pavel Glushkov
 # SPDX-License-Identifier: MIT
 
-if BOARD_KBD533-LPHS_LEFT
+if BOARD_KBD533_LEFT
 
 	config ZMK_KEYBOARD_NAME
-	default "KBD533-LPHS"
+	default "KBD533"
 
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
-endif # BOARD_KBD533-LPHS_LEFT
+endif # BOARD_KBD533_LEFT
 
-if BOARD_KBD533-LPHS_RIGHT
+if BOARD_KBD533_RIGHT
 
 	config ZMK_KEYBOARD_NAME
-	default "KBD533-LPHS Right"
+	default "KBD533 Right"
 
-endif # BOARD_KBD533-LPHS_RIGHT
+endif # BOARD_KBD533_RIGHT
 
 
-if BOARD_KBD533-LPHS_LEFT || BOARD_KBD533-LPHS_RIGHT
+if BOARD_KBD533_LEFT || BOARD_KBD533_RIGHT
 
 config BOARD
-	default "kbd533-lphs"
+	default "kbd533"
 
 config ZMK_SPLIT
 	default y
@@ -49,4 +49,4 @@ config USB_DEVICE_STACK
 
 endif # USB
 
-endif # BOARD_KBD533-LPHS_LEFT || BOARD_KBD533-LPHS_RIGHT
+endif # BOARD_KBD533_LEFT || BOARD_KBD533_RIGHT

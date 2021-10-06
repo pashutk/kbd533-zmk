@@ -1,2 +1,2 @@
-# KBD533-LPHS ZMK Configuration
+# KBD533 ZMK Configuration
 

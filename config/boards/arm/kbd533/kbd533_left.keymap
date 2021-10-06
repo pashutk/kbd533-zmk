@@ -4,4 +4,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "kbd533-lphs.keymap"
+#include "kbd533.keymap"

@@ -8,8 +8,8 @@
 #include <nordic/nrf52833_qiaa.dtsi>
  
 / {
-    model = "kbd533-lphs";
-    compatible = "kbd533-lphs";
+    model = "kbd533";
+    compatible = "kbd533";
  
     chosen {
       zephyr,code-partition = &code_partition;
