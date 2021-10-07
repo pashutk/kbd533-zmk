@@ -1,25 +1,7 @@
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
+/*
+ * Copyright (c) 2021 Pavel Glushkov
+ *
+ * SPDX-License-Identifier: MIT
+ */
 
-#define BASE 0
-#define NAV 1
-#define MOUSE 2
-#define MEDIA 3
-#define NUM 4
-#define SYM 5
-#define FUN 6
-#define ADJ 7
-
-/ {
-        keymap {
-                compatible = "zmk,keymap";
-
-                default_layer {
-                        bindings = <
-   &kp Q       &kp W       &kp E          &kp R          &kp T             &kp Y        &kp U         &kp I        &kp O       &kp P
-   &hm LGUI A  &hm LALT S  &hm LCTRL D    &hm LSHFT F    &kp G             &kp H        &hm LSHFT J   &hm LCTRL K  &hm LALT L  &hm LGUI SEMI
-   &kp Z       &kp X       &kp C          &kp V          &kp B             &kp N        &kp M         &kp COMMA    &kp DOT     &kp FSLH
-                           &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB     &lt SYM RET  &lt NUM BSPC  &lt FUN DEL
-                        >;
-                };
-};
+#include "kbd533.keymap"
